@@ -7,7 +7,7 @@ This code creates an audio playlist. It was developed to work in Blackboard for 
 The code housed on Github is to be used as a backup by the relevant Ohio University employees only (including the Office of Instructional Innovation).
 
 ## Prerequisite
-This was optimized for Blackboard Learn (the version being used as of 2016 at Ohio University).
+This was optimized for Blackboard Learn (the version being used as of 2015 at Ohio University).
 
 ## Instructions
 I. Set up
