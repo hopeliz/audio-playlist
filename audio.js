@@ -1,6 +1,5 @@
-/* Version 13 */
+/* Version 13.1 */
 
-// Define variables
 var playlistTitle = "";
 var count = 0;
 var current = 0;
@@ -9,8 +8,6 @@ var songs = new Array;
 var titles = new Array;
 var artists = new Array;
 var composers = new Array;
-
-
 
 
 
@@ -66,8 +63,9 @@ composers = [
 
 
 
-/* playSong() takes the index and plays the song
- * @param {integer} num  The index of song
+/*
+ * @desc This function takes the index and plays the song.
+ * @param {integer} num The index of song
 */
 
 function playSongs(num){
@@ -114,8 +112,9 @@ function playSongs(num){
   return num;
 }
 
-/* startPlay() sets the index to zero, started to true, and runs playSongs()
- * button disappears after the first play
+/*
+ * @desc This function sets the index to zero, started to true, and runs playSongs(). The button disappears after the first play.
+ * @returns {integer} num Index as zero
 */
 
 function startPlay(){
@@ -127,7 +126,10 @@ function startPlay(){
   return num;
 }
 
-/* playNext() pauses the current song, increases the index and runs playSongs() */
+/*
+ * @desc This function pauses the current song, increases the index and runs playSongs().
+ * @returns {integer} num Index of the next song to play.
+*/
 
 function playNext(){
   song = document.getElementById("audio-block" + num);
@@ -141,7 +143,10 @@ function playNext(){
   return num;
 }
 
-/* playPrev() pauses the current song, decreases the index and runs playSongs() */
+/*
+ * @desc This function pauses the current song, decreases the index and runs playSongs().
+ * @returns {integer} num Index of the previous song to play.
+*/
 
 function playPrev(){
   num = current;
@@ -156,8 +161,9 @@ function playPrev(){
   return num;
 }
 
-/* playOutside() takes the selected song and plays it and updates the style
- * int selected Selected song
+/*
+ * @desc This function takes the selected song and plays it and updates the style.
+ * @param {integer} selected Index of selected song
 */
 
 function playOutside(selected) {
@@ -174,9 +180,11 @@ function playOutside(selected) {
   return current;
 }
 
-/* dontPlay() takes the selected song and stops it and updates the style
- * int selected Selected song
+/*
+ * @desc This function takes the selected song and stops it and updates the style
+ * @param {integer} selected Index of the selected song
 */
+
 function dontPlay(current) {
   song = document.getElementById("audio-block" + current);
   $("#description" + current).css({"background-color": "#000", "border-color": "#000"});
@@ -194,7 +202,10 @@ $(document).ready(function(){
   })
 });
 
-/* loadSongs() load the songs from the array above. */
+/*
+ * @desc This function loads the songs from the array above.
+*/
+
 function loadSongs(){
   var count = 0;
   $("#title").html(playlistTitle);
