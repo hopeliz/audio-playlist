@@ -1,7 +1,7 @@
 # Audio Playlist
 Version 1.13
 
-This code creates an audio playlist. It was developed to work in Blackboard for a History of Rock Course.
+This code creates an audio playlist. It was developed to work in Blackboard for Ohio University's History of Rock Course.
 
 ## Disclaimer
 The code housed on Github is to be used as a backup by the relevant Ohio University employees only (including the Office of Instructional Innovation).
@@ -51,4 +51,4 @@ III. Launch in Blackboard:
 5. Komodo Edit
 
 ## Credits
-Automated Certificate Creator was created by Hope E. Moore in June 2015.
+Automated Certificate Creator was created by Hope E. Moore in June 2015. Thank you to Matthew Dingo for the oportunity to create this.
