@@ -51,4 +51,4 @@ III. Launch in Blackboard:
 5. Komodo Edit
 
 ## Credits
-Automated Certificate Creator was created by Hope E. Moore in June 2015. Thank you to Matthew Dingo for the oportunity to create this.
+This Audio Playlist was created by Hope E. Moore for Ohio University's Office of Instructional Innovation in June 2015. Thank you to Matthew Dingo for the oportunity to create this.
